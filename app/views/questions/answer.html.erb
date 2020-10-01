@@ -1,2 +1,12 @@
-<h1> <%=@coach_answer%> </h1>
-<p><%= link_to "Ask another question", ask_path %></p>
+<div class="container">
+  <h1>Stupid Coaching</h1>
+  <div class="card">
+    <p><%=@question%></p>
+    <p><em>- your answer</em></p>
+  </div>
+  <div class="card" style="background-color: rgba(255, 240, 193, 0.466);">
+    <p> <strong><%=@coach_answer%></strong></p>
+    <p class="coach"><em>- your coach</em></p>
+  </div>
+  <p class="link"><%= link_to "Ask another question", ask_path %></p>
+</div>

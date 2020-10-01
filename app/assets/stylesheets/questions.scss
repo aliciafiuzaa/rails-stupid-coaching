@@ -1,3 +1,48 @@
 // Place all the styles related to the Questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$gray: #d3d3d3;
+.container {
+  font-family: sans-serif;
+  margin-left: 20px;
+  color: #343333;
+  .card {
+    border-left: 7px solid $gray;
+    padding: 5px 0px 20px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 600px;
+  }
+}
+
+a {
+  color: rgb(0, 119, 255);
+  text-decoration: none;
+  &:hover {
+    color: pink;
+  }
+}
+
+.coach {
+  padding-top: 5px;
+  margin: 0px;
+}
+
+.search-bar {
+  background-color: white;
+  height: 30px;
+  width: 400px;
+  border-radius: 5px;
+  border-color: rgb(228, 228, 228);
+  border-width: 2px;
+  box-shadow: none;
+
+}
+
+.button {
+  padding: 10px 15px 10px 15px;
+  background-color: rgb(228, 228, 228);
+  border: 2px solid rgb(194, 194, 194);
+  border-radius: 50px;
+}
